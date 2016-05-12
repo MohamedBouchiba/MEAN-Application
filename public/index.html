@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>MEAN APP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container" ng-controller="AppCtrl">
+    <h3>Mohamed</h3>
+<div class="col-md-12">
+    <input type="text" class="form-control col-md-3" ng-model="User.fisrtname" >
+    <input type="text" class="form-control col-md-3" ng-model="User.lastname">
+    <input type="password" class="form-control col-md-3" ng-model="User.password">
+    <button class="btn btn-primary col-md-3" ng-click="addContact()">The Test</button>
+</div>
+
+
+</div>
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="controllers/controller.js"></script>
+</body>
+</html>
